@@ -111,7 +111,7 @@ void search_admin_directories(const char *hostname, const char *ip_address, cons
 
 int main() {
     print_color_text("=====================================\n", "\033[1;36m");
-    print_color_text("[×] DNS ENUM by Cipher Squid\n", "\033[1;31m");
+    print_color_text("[×] DNS ENUM by 𝘾𝙞𝙥𝙝𝙚𝙧 𝙎𝙦𝙪𝙞𝙙\n", "\033[1;31m");
     print_color_text("[×] Use responsibly!\n", "\033[1;33m");
     print_color_text("=====================================\n", "\033[1;36m");
 
@@ -125,7 +125,7 @@ int main() {
     while (1) {
         input_color_text("", "\033[1;36m", hostname, sizeof(hostname));
         if (strcmp(hostname, "exit") == 0) {
-            typewriter_effect("\nThanks for using this tool! Visit t.me/VikingTerminal for more utilities.", "\033[1;36m");
+            typewriter_effect("\nThanks for using DNS ENUM by 𝘾𝙞𝙥𝙝𝙚𝙧 𝙎𝙦𝙪𝙞𝙙!", "\033[1;36m");
             sleep(1);
             break;
         }
